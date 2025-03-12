@@ -1,0 +1,563 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 8px;
+    
+}
+ body{
+  font-family: 'Poppins', sans-serif;
+  background: radial-gradient(hsla(0, 0%, 100%, 0.911),#faf6f6);
+ }
+
+
+
+  a{
+    text-decoration: none;
+    color: #3436c2;
+    
+  }
+  
+  .logo10{
+    width: 10%;
+    height: auto;
+    border-radius: 100%;
+    border: 2px solid rgb(136, 10, 10);
+    float: left;
+    padding: 0;
+  
+ }
+ 
+  .container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+
+  }
+  
+p{
+    font-size: large;
+}
+
+
+                                             /*---------------home-------------*/
+
+h1 span {
+ align-items: center;
+  text-align: center;
+  font-size: 60px;
+  display: inline-block;
+  animation: colorChange 3s infinite;
+}
+
+/* Animation ya kubadilisha rangi */
+@keyframes colorChange {
+  0% { color: #ff5733; }  /* Red */
+  50% { color: #33ff57; } /* Green */
+  100% { color: #3357ff; } /* Blue */
+}
+
+/* Kuchelewesha kila herufi ili zibadilike moja baada ya nyingine */
+h1 span:nth-child(1) { animation-delay: 0s; }
+h1 span:nth-child(2) { animation-delay: 0.2s; }
+h1 span:nth-child(3) { animation-delay: 0.4s; }
+h1 span:nth-child(4) { animation-delay: 0.6s; }
+h1 span:nth-child(5) { animation-delay: 0.8s; }
+h1 span:nth-child(6) { animation-delay: 1s; }
+h1 span:nth-child(7) { animation-delay: 1.2s; }
+h1 span:nth-child(8) { animation-delay: 1.4s; }
+h1 span:nth-child(9) { animation-delay: 1.6s; }
+h1 span:nth-child(10) { animation-delay: 1.8s; }
+h1 span:nth-child(11) { animation-delay: 2s; }
+
+
+
+
+.intro{
+  align-items: center;
+  background: radial-gradient(#f7e1e1,#f2f3ef,#fff);
+}
+.intro h2 b{
+    font-size: 3rem;
+    margin-top: 70%;
+    margin: 50px 30px;
+    padding-top: 40px;
+    color: #b047e0;
+    
+}
+.intro h2 {
+  font-size: 2rem;
+  margin-top: 70%;
+  margin: 50px 30px;
+  padding-top: 40px;
+  color: #442828;
+}
+.intro p{
+  margin: 20px;
+  padding-bottom: 30px;
+}
+.login{
+  background-color: rgba(3, 99, 67, 0.8);
+  color: #fff;
+
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  margin: 30px 0;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.btn{
+  align-items: center;
+}
+.course h2{
+   font-size: 80px;
+   align-items: center;
+   background-color: rgba(56, 13, 212,);
+   color: #7e2525;
+   text-align: center;
+   border-radius: 10px;
+   margin: 40px 5px;
+}
+
+.welcome{
+  background: radial-gradient(#a3a3be,#c1c585,#ca7070);
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+.welcome h1{
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.welcome p{
+  font-size: 1.2em;
+}
+.welcome a{
+  background-color: #28a745;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 5px;
+}
+.welcome a:hover{
+  background-color: #035214;
+}
+
+
+
+.about{
+  padding: 50px 20px;
+  background-color: #fff;
+  text-align: center;
+}
+.about h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.about p {
+  font-size: 1.1em;
+}
+
+
+
+.offer{
+  padding: 50px 20px;
+
+  background-color: #f8f9fa;
+
+  text-align: center;
+} 
+.offer h2{
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: 600;
+  background-color: rgba(180, 197, 221, 0.3);
+  text-align: center;
+  color: #1f1524;
+}
+.offeritem h3{
+  font-size: 40px;
+}
+.offeritems{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+.offeritem{
+  background: #ffffff;
+  padding: 20px;
+  box-shadow: o 4px 6px rgba(0,0,0,0.1);
+  flex-basis: 22%;
+  text-align: center;
+}
+.offeritem h3{
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+
+*/*----------why choose-----------------*/
+
+.why-choose h2{
+    font-size: 4em;
+    background-color: rgba(177, 85, 85, 0.6);
+    color: rgba(245, 245, 245, 0.9);
+    font-weight: 600;
+ 
+}
+
+
+.why-choose{
+  padding: 50px 20px;
+  background: #3a628f;
+  color: white;
+  text-align: center;
+}
+.why-choose ul {
+  list-style: none;
+  display: inline;
+  padding: 0;
+}
+.why-choose li{
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.why-choose li strong{
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #100820;
+}
+.get-started{
+  padding: 50px 20px;
+  text-align: center;
+}
+.get-started h2{
+  font-size: 2.5em;
+  margin-bottom: 20px;
+
+}
+.get-started-btns a {
+  background-color: #28a745;
+  color: white;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 5px;
+  margin: 10px;
+  display: inline-block;
+}
+
+.get-started-btns a:hover {
+  background-color: #28a745;
+}
+
+
+
+
+
+
+
+
+    /*animation */
+    .header h5 span{
+      background: linear-gradient(#17ad3c,rgb(179, 9, 9), #2c0379);
+      background-repeat: no-repeat;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-size: 0%;
+      font-size: 60px;
+      float: right;
+  }
+  .header h5 span:first-child{
+      animation: textcolor1 2s linear infinite alternate;
+  }
+   .header h5 span:last-child{
+      animation: textcolor2 1s linear infinite alternate;
+  
+  }
+  @keyframes textcolor1 {
+      0%{
+          background-size: 0%;
+      }
+        40%{
+          background-size: 100%;
+      }
+      100%{
+          background-size: 100%;
+      }
+  }
+  @keyframes textcolor2 {
+      0%{
+          background-size: 0%;
+      }
+        40%{
+          background-size: 0%;
+      }
+      100%{
+          background-size: 100%;
+      }
+  }
+  /*animation */
+  .bamk h6  span{
+      background: linear-gradient(#028124, #063012);
+      background-repeat: no-repeat;
+      -webkit-text-fill-color: transparent;
+      -webkit-background-clip: text;
+      background-size: 0%;
+      font-size: 18px;
+  }
+  .bamk h6  span:first-child{
+      animation: textcolor1 1s ease-in-out infinite alternate;
+  }
+   .bamk h6 span:last-child{
+      animation: textcolor2 2s ease-in-out infinite alternate;
+  
+  }
+  @keyframes textcolor1 {
+      0%{
+          background-size: 0%;
+  
+      }
+        40%{
+          background-size: 100%;
+      }
+      100%{
+          background-size: 100%;
+      }
+  }
+  @keyframes textcolor2 {
+      0%{
+          background-size: 0%;
+      }
+        40%{
+          background-size: 0%;
+      }
+      100%{
+          background-size: 100%;
+      }
+  }
+
+
+
+
+
+
+
+
+
+
+
+/*----------------footer-----------*/
+footer{
+ 
+  width: 100%;
+  color: white;
+  
+  text-align: center;
+  align-items: center;
+  bottom: 0px;
+  padding: 0px;
+  
+}
+footer a{
+  color: #33038b;
+
+  
+
+}
+
+footer p{
+  font-size: 15px;
+  padding: 10px;
+  background-color:rgba(38, 39, 39, 0.8);
+  width: 100%;
+  color: white;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+
+  .offeritems{
+   display: block;
+    
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------table------------*/
+ .tabl{
+  background-color: #750606;
+  color: #f5eded;
+  text-align: center;
+  align-items: center;
+}
+table{
+  border: 6px solid rgb(83, 68, 68);
+}
+
+table th{
+  border: 1px solid ;
+}
+table tr td{
+  border: 1px solid ;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------Account----------*/
+.account-page{
+  padding: 50px 0;
+  background: radial-gradient(#fff,#ffd6d6);
+}
+.form-container{
+  background-color: #fff;
+  width: 300px;
+  height: 600px;
+  position: relative;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  overflow: hidden;
+
+}
+form{
+  align-items: center;
+}
+.form-container span{
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.left{
+  float: left;
+  margin-left: 8px;
+}
+
+.right{
+  float: right;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+.form-btn span{
+  display: inline-block;
+  justify-content: space-between;
+}
+.form-container form{
+  max-width: 300px;
+  padding: 0 20px;
+  position: absolute;
+  top: 130px;
+  transition: transform 1s;
+}
+
+form input{
+ width: 100%;
+  height: 30px;
+  margin: 10px 0px;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+form .input{
+  width: 40%;
+  height: 30px;
+  margin: 10px 0px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+form .btn{
+  width: 100%;
+  border: none;
+  cursor: pointer;
+  margin: 10px 0;
+}
+form .btn:focus{
+  outline: none;
+}
+
+#LoginForm{
+  left: -300px;
+}
+
+#RegForm{
+  left: 0;
+}
+
+form a{
+  font-size: 12px;
+
+}
+#Indicator{
+  width: 200px;
+  border: none;
+  background: #ff523b;
+  height: 3px;
+  margin-top: 8px;
+  transform: translateX(100px);
+  transition: transform 1s;
+}
+.button{
+  height: 50%;
+  width: 50%;
+  padding: 8px;
+  border-radius: 4%;
+  background-color: rgba(12, 79, 180, 0.6);
+  color: #fff;
+}
+
+
+
+
+
+@media only screen and  (max-width: 800px){
+
+
+
+}
+  
